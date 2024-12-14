@@ -1,0 +1,286 @@
+.ml-auto{
+    margin-left: auto !important;
+}
+.navbar{
+    padding: 15px 6% !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-link:hover,.active{
+        /* color: greenyellow; */
+        color: #1fe4e8 !important;
+        /* border-bottom: 1px solid greenyellow; */
+        /* border-bottom: 1px solid #1fe4e8; */
+}
+.navbar-brand span{
+    color: #1fe4e8;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 25px !important;
+    transition: 0.3s ease;
+}
+.navbar-brand:hover{
+        /* color: greenyellow; */
+        color: #1fe4e8;
+        text-shadow: 0 0 25px #1fe4e8 , 0 0 50px greenyellow;
+    
+        /* text-shadow: 0 0 25px greenyellow , 0 0 50px greenyellow; */
+        transform: scale(1.1); 
+}
+
+/* -----------------------Header End------------------------ */
+
+.section{
+    /* margin-top: 50px; */
+    /* background-color: red; */
+    min-height: 700px;
+    align-content: center;
+}
+.contain-box{
+    min-height: 500px;
+}
+/* .contain-box .row1{
+    margin-top: 100px;
+} */
+.intro h1,.intro h3{
+    font-weight: bold;
+}
+.intro h3{
+    font-size: 30px;
+}
+.intro h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.intro p{
+    font-size: 18px;
+    margin: 25px 0  30px;
+}
+
+.section .row{
+    align-items: center;
+    /* background-color: blue; */
+}
+.imgbox{
+    max-width: 450px;
+    max-height: 480px;
+}
+.imgbox img{
+    border-radius: 50%;
+    height: 100%;
+}
+
+/* ----Button Box------ */
+.btnbox{
+    /* background-color: red; */
+    margin-bottom: 10px;
+    
+}
+.btn1{
+    outline: none;
+    border: none;
+    background-color: #1fe4e8;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.btn1:hover{
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.btn2{
+    outline: none;
+    font-weight: bold;
+    border: none;
+    margin-left: 30px;
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+
+}
+.btn2:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black
+    ;
+}
+
+
+/* ------------------End Section------------- */
+
+
+
+/* ---------------------About Start-------------- */
+
+.aboutme .big{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; */
+    /* font-size: 7.813vw; */
+    font-family: "Roboto", sans-serif;
+    font-size: calc(1.5rem + 6.5vw);
+    color: transparent;
+    font-weight: bold;
+    /* -webkit-text-stroke: 1px rgba(255, 255, 255, 0.219) ; */
+    -webkit-text-stroke:2px rgba(255, 255, 255, 0.201);
+}
+.aboutme .small{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-size: 2.083vw; */
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Heebo", sans-serif;
+    font-size: calc(1.375rem + 1vw);
+    letter-spacing: 1px;  
+    font-weight: bold;
+    /* color: greenyellow; */
+    color: #1fe4e8 !important;
+    /* color: black; */
+}
+.big-one{
+    position: absolute;
+    top: 30px;
+    right: 37%;
+
+}
+.textalign{
+    position: absolute;
+    top: 70px;
+    right: 45%;
+}
+
+/* ------------Aboutme--------- */
+
+.details table{
+    margin-top: 30px !important;
+    background-color: transparent !important;
+    border: none;
+}
+.details .big{
+    -webkit-text-stroke:2px rgba(255, 255, 255, 0.201) !important;
+}
+.detail_text h1{
+    color: white;
+}
+.details table td{
+    padding-top: 15px;
+    /* padding-right: 60px; */
+    color: white;
+    border: none;
+    background-color: transparent !important;
+}
+.details p, .details .name{
+    color: rgba(240, 248, 255, 0.399);
+}
+.about{
+    background-color: rgba(0, 0, 0, 0.732);
+    min-height: 680px;
+}
+
+
+
+/* ------------About End---------------- */
+
+/* ==================My-Resume============ */
+
+.line {
+    display: block;
+    width: 40px;
+    height: 1.5px;
+    background-color: rgb(30, 213, 245);
+  }
+
+  .card-body p{
+    margin-top: 15px !important;
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, 0.696) !important;
+  }
+  
+  .myresume .big{
+    font-family: "Roboto", sans-serif;
+    font-size: calc(1.5rem + 4vw);
+    color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke:2px rgba(255, 255, 255, 0.096);
+}
+.myresume .small{
+    font-family: "Heebo", sans-serif;
+    font-size: calc(1.375rem + 1vw);
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    color: #000000 !important;
+}
+  
+
+/* ============myproject==================== */
+
+
+.myproject{
+    background-color: rgba(0, 0, 0, 0.732);}
+
+.port{
+    /* background-image: url(./Photo/project1.jpg);
+    background-size: 100%;
+    background-attachment: inherit; */
+    /* border: 2px solid white; */
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #000000;
+    max-height: 600px;
+}
+/* .port2{
+    background-color: #0000005a;
+    backdrop-filter: blur(2px);
+} */
+
+
+.port2 .card-body{
+    justify-items: center;
+}
+.Project-btn{
+    outline: none;
+    text-align: center;
+    border: none;
+    background-color: #1fe4e8;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+.Project-btn:hover{
+    background-color: rgb(255, 247, 247);
+    color: #000000;
+    
+}
+/* .project1{
+    max-width: 80%;
+} */
+.project-line{
+    margin-left: 12px;
+}
+footer a{
+    cursor: pointer;
+}
+footer{
+    align-content: center;
+    min-height: 250px;
+}
