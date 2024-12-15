@@ -251,7 +251,7 @@
 .port2 .card-body{
     justify-items: center;
 }
-.Project-btn{
+.Project-btn ,.btn{
     outline: none;
     text-align: center;
     border: none;
@@ -283,4 +283,57 @@ footer a{
 footer{
     align-content: center;
     min-height: 250px;
+}
+
+/* ========contact============= */
+
+.contact{
+    background-color: #000000 !important;
+    min-height: 680px;
+    align-content: center;
+}
+
+.contact h1{
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact h3{
+    color: #1fe4e8;
+}
+.contact .detail img{
+    border-radius: 50%;
+}
+.contact .detail .row{
+    display: flex;
+}
+.contact p{
+    color: white;
+}
+.contact .card{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+.contact .card h2{
+    font-weight: bold;
+}
+.contact .card input{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc !important;
+}
+.contact_btn{
+    width: 100% !important;
+    border-radius: 30px;
+}
+.contact_btn:hover{
+    background-color: black;
+    color: white;
 }

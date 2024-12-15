@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a href="#" class="navbar-brand"><span>MEET</span>ME</a>
@@ -63,7 +63,7 @@
                 
                         <div class="btnbox">
                             <button onclick="location.href='#About'" class="btn1" >About Me</button>
-                            <button class="btn2">Hire Me</button>
+                            <button onclick="location.href='#contact'" class="btn2">Hire Me</button>
                         </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
@@ -258,7 +258,11 @@
                                 </div>
                                 <h6>Bootstrap</h6>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-info" style="width: 40%;" role="progressbar" aria-valuenow="90" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" style="width: 70%;" role="progressbar" aria-valuenow="90" aria-valuemax="100"></div>
+                                </div>
+                                <h6>React Js</h6>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-info" style="width: 80%;" role="progressbar" aria-valuenow="90" aria-valuemax="100"></div>
                                 </div>
 
                             </div>
@@ -311,7 +315,7 @@
                                     CSS, JavaScript, and Bootstrap, it features user 
                                     authentication and organized content by artists and 
                                     genres.</small><br>
-                                <button class="btn Project-btn">Project Link</button>
+                                <button class="btn Project-btn" onclick="location.href='#header'">Project Link</button>
                                 
                             </div>
                             </div>
@@ -333,11 +337,54 @@
                                     Javascript and React js. The primary goal of the Greens project is 
                                     to develop a fully functional e-commerce web application that allows 
                                     users to purchase a wide range of products online.</small><br>
-                                <button class="btn Project-btn">Project Link</button>
+                                <button onclick='location.href="https://e-commerce-greens.vercel.app/"' class="btn Project-btn">Project Link</button>
                                 
                             </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact py-4 bg-dark">
+        <div class="container">
+            <div class="row">
+                <h1>Contact</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam modi nulla, optio vitae est fugit facilis porro sit dignissimos magnam aut dolores, assumenda tempora? Beatae esse quas architecto sit ex.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-6 detail">
+                    <div class="row">
+                        <div>
+                            <h3><i class="fa-solid fa-envelope"></i> </h3>
+                            <h3>Address</h3>
+                        <p>Irumbuliyur,Tambaram-600045</p></div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            
+                            <h3><i class="fa-solid fa-phone"></i></h3>
+                            <h3>Phone</h3>
+                            <p>638-232-0259</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <h3><i class="fa-solid fa-envelope"></i> </h3>
+                            <h3>Mail</h3><p>bala_7@outlook.com</p></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 Message">
+                    <div class="card">
+                            <form class="form">
+                                <h2>Send Message</h2>
+                                <input type="text" placeholder="FullName">
+                                <input type="email"  placeholder="Email">
+                                <input type="text" placeholder="Type your Message">
+                                <button onclick="Message()" class="contact_btn btn">Send</button>
+
+                            </form>
                     </div>
                 </div>
             </div>
@@ -382,7 +429,11 @@
             </div>
         </div> -->
 
-    
+    <script>
+        function Message(){
+            alert(`Hi Your Message Was Successfully Sent`)
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
